@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# electron-cra-2023spring
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2023新春版：手把手教你搭建Electron24+React18+Antd5架构工程
 
-## Available Scripts
 
-In the project directory, you can run:
+本项目架构实现了以下功能：
 
-### `npm start`
+- 基于Create-React-App 5.0.1搭建
+- 集成Sass/Scss/Less/Stylus
+- 集成Ant Design 5.x
+- 集成react-router-dom v6
+- 集成Electron24
+- 集成electron-builder
+- 解决国内下载Electron相关文件各种网络问题
+- 实现主进程与渲染进程通信方法一Demo：send与on/once
+- 实现主进程与渲染进程通信方法二Demo：invoke与handle
+- 实现了完整的Electron24+React18+Antd5项目Demo。
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 教程
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📚📚 按照教程一步一步搭建，即可全面掌握项目细节，请关注作者**微信公众号「卧梅又闻花」**，阅读完整版文章：
 
-### `npm test`
+[《2023新春版：手把手教你搭建Electron24+React18+Antd5架构工程》](https://mp.weixin.qq.com/s/OTbIduwYl31oJmLgTR-SIg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+❤️❤️文章教程是作者花费大量时间精心编排准备的，您的支持是作者写作的最大动力源泉❤️❤️
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 安装
+GitHub：
+```
+git clone https://github.com/Yuezi32/electron-cra-2023spring.git
+```
+Gitee：
+```
+git clone https://gitee.com/betaq/electron-cra-2023spring.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 开发调试
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+执行：
+```
+yarn electron:start
+```
 
-### `npm run eject`
+## build项目
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+执行：
+```
+yarn electron:build
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
